@@ -18,7 +18,7 @@ st.set_page_config(
 @st.cache_resource
 def load_model():
     return tf.keras.models.load_model(
-        "model\\potato_model.keras (1)"
+        "potato_model (1).keras"
     )
 
 model = load_model()
