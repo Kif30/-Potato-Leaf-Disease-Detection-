@@ -168,3 +168,4 @@ if uploaded_file is not None:
             No disease symptoms found.
             """
         )
+st.write("NEW VERSION RUNNING")
